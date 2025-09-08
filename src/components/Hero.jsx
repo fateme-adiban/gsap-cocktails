@@ -16,7 +16,7 @@ const Hero = () => {
     heroSplit.chars.forEach(char => char.classList.add("text-gradient"))
 
     gsap.from(heroSplit.chars, {
-      yPercent: 50,
+      yPercent: 100,
       duration: 1.8,
       ease: "expo.out",
       stagger: 0.05
@@ -24,7 +24,7 @@ const Hero = () => {
 
     gsap.from(paragraphSplit.lines, {
       opacity: 0,
-      yPercent: 80,
+      yPercent: 100,
       duration: 1.8,
       ease: "expo.out",
       stagger: 0.06,
@@ -74,7 +74,7 @@ const Hero = () => {
 
         <div className="body">
           <div className="content">
-            <div className="space-y-5 hidden md:block">
+            <div className="space-y-5 hidden xl:block">
               <p>Cool. Crisp. Classic.</p>
               <p className="subtitle">
                 Sip the Spirit <br /> of Summer
