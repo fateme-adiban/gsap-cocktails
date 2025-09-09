@@ -113,7 +113,7 @@ body {
         }
 
         .view-cocktails {
-          @apply space-y-5 mt-5 sm:mt-0 max-w-130 text-base sm:text-lg lg:max-w-2xs md:max-w-xs w-full;
+          @apply space-y-5 mt-5 sm:mt-0 max-w-100 text-base sm:text-lg lg:max-w-2xs md:max-w-xs w-full;
 
           p {
             @apply text-left;
