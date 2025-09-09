@@ -29,7 +29,7 @@ const About = () => {
   })
 
   return (
-    <div id="about" className="size-full bg-[url('/images/noise.png')]">
+    <div id="about" className="w-full h-full bg-[url('/images/noise.png')]">
       <div className="mb-16 md:px-20 px-5">
         <div className="content">
           <div className="md:col-span-8">
@@ -51,17 +51,17 @@ const About = () => {
       </div>
 
       <div className="top-grid md:px-20">
-        <div className="md:col-span-3">
+        <div className="xl:col-span-3">
           <div className="noisy" />
           <img src="/images/abt1.png" alt="grid-img-1" />
         </div>
 
-        <div className="md:col-span-6">
+        <div className="xl:col-span-6">
           <div className="noisy" />
           <img src="/images/abt2.png" alt="grid-img-2" />
         </div>
 
-        <div className="md:col-span-3">
+        <div className="xl:col-span-3">
           <div className="noisy" />
           <img src="/images/abt5.png" alt="grid-img-5" />
         </div>
