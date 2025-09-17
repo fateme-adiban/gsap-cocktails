@@ -40,7 +40,7 @@ const Art = () => {
   })
 
   return (
-    <div id="art" className="w-full h-full bg-[url('/images/noise.png')] mt-0 overflow-hidden">
+    <div id="art" className="pt-20 w-full h-full bg-[url('/images/noise.png')] mt-0 overflow-hidden">
       <div className="container mx-auto h-full">
         <h2 className="will-fade">The ART</h2>
 
